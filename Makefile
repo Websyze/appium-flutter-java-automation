@@ -4,7 +4,7 @@ MVN_CLEAN := clean
 MVN_TEST := compile test
 FLUTTER_DRIVER_CMD := flutter-driver
 FLUTTER_INTEGRATION_DRIVER_CMD := flutter-integration-driver
-PROJECT_NAME := Appium Flutter Demo on LambdaTest
+PROJECT_NAME := Appium Flutter Demo on TestMu AI cloud grid
 
 .PHONY: clean
 clean:
@@ -22,12 +22,12 @@ build:
 
 .PHONY: flutter-driver
 flutter-driver-test:
-	@echo "Running Flutter Driver tests on LambdaTest cloud grid..."
+	@echo "Running Flutter Driver tests on TestMu AI cloud grid..."
 	- $(MVN) test -P $(FLUTTER_DRIVER_CMD)
 
 .PHONY: flutter-integration-driver
 flutter-integration-driver-test:
-	@echo "Running Flutter Integration Driver tests on LambdaTest cloud grid..."
+	@echo "Running Flutter Integration Driver tests on TestMu AI cloud grid..."
 	- $(MVN) test -P $(FLUTTER_INTEGRATION_DRIVER_CMD)
 
 .PHONY: help
@@ -35,5 +35,5 @@ help:
 	@echo ""
 	@echo "clean : Clean up temp files"
 	@echo "build : Building the Flutter automation project"
-	@echo "flutter-driver-test : Running Flutter Driver tests on LambdaTest cloud grid"
-	@echo "flutter-integration-driver-test : Running Flutter Integration Driver tests on LambdaTest cloud grid"
+	@echo "flutter-driver-test : Running Flutter Driver tests on TestMu AI cloud grid"
+	@echo "flutter-integration-driver-test : Running Flutter Integration Driver tests on TestMu AI cloud grid"
